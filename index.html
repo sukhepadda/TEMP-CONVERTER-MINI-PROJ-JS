@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <!--  -->
+    <link rel="stylesheet" href="style.css">
+    <!--  -->
+</head>
+
+<body>
+    <div class="container">
+
+        <form id="form" onsubmit="tempCalculator(); return false">
+            <h1>Convert your temperature</h1>
+            <br>
+            <br>
+            <label for="userVal">Enter temperature: </label>
+            <input type="number" name="conVal" id="userVal" placeholder="enter your value to convert" required>
+            <br>
+            <br>
+            <label for="select">Select Conversion: </label>
+
+            <select name="option" id="selOption">
+                <option value="cels">Celcius</option>
+                <option value="fahr">Fahrenheit</option>
+            </select>
+            <br>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+<br>
+<br>
+
+            <div id="resultDiv"></div>
+        </form>
+    </div>
+    <!--  -->
+    <script src="script.js"></script>
+    <!--  -->
+</body>
+
+</html>

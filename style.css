@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(25, 87, 87, 0.884);
+    display: grid;
+    place-content: center;
+
+}
+.container{
+    width: 60%;
+    background-color: rgba(27, 212, 212, 0.842);
+    padding: 20px 10px 20px 10px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px 20%;
+}
+h1{
+    font-size: 37px;
+    color: blue;
+    text-transform: uppercase;
+}
+label{
+    color: red;
+    font-size: 30px;
+    font-weight: 800 ;
+
+}
+input{
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    width: 300px;
+    padding: 10px;
+    color: blue;
+}
+select{
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    width: 300px;
+    padding: 10px;
+    color: blue;
+}
+#resultDiv{
+    color: darkgreen;
+    font-size: 44px;
+    font-weight: 600;
+}
